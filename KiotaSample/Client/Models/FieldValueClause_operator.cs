@@ -21,9 +21,9 @@ namespace AtlassianClient.Models {
         [EnumMember(Value = "not in")]
         NotIn,
         [EnumMember(Value = "~")]
-        ~,
+        Tilde,
         [EnumMember(Value = "~=")]
-        ~Equal,
+        TildeEqual,
         [EnumMember(Value = "is")]
         Is,
         [EnumMember(Value = "is not")]
